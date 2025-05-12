@@ -44,13 +44,7 @@ This project demonstrates automatic vehicle number plate detection using **Pytho
 - **preprocess_image(image):** Converts to grayscale, filters noise, and applies edge detection.
 - **find_plate_contour(edged):** Locates the contour of the number plate using polygon approximation.
 - **extract_plate(image, contour):** Masks and crops the number plate region for OCR.
-
----
-
-## 📷 Example (Optional)
-
-> You can add before/after screenshots of the detection output here.
-
+- 
 ---
 
 ## 📚 Future Enhancements
@@ -58,14 +52,6 @@ This project demonstrates automatic vehicle number plate detection using **Pytho
 - Train with custom datasets for Indian number plate formats.
 - Add real-time video feed processing.
 - Deploy as a web application using Flask or Streamlit.
-
----
-
-## 👩‍💻 Author
-
-**Dimple**  
-B.E. CSE | Naan Mudhalvan Project 2025  
-[LinkedIn Profile] (optional)
 
 ---
 
